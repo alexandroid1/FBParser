@@ -16,6 +16,8 @@ public class OneTest extends TestCase {
         // откроем страницу Google
         driver.get("http://www.google.com");
 
+        Thread.sleep(7000);
+
         // Найдем поле ввода по атрибуту name
         WebElement element = driver.findElement(By.name("q"));
 
