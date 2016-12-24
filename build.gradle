@@ -8,6 +8,8 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
         classpath 'org.seleniumhq.selenium:selenium-java:2.47.1'
+
+
     }
 }
 
